@@ -1,0 +1,15 @@
+[package]
+name = "Local-Deals-Marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x38be4a45ec9577e2627d2362791e6c4c306aefc717df8c33156cda2afde6e55c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
